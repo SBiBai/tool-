@@ -2,7 +2,8 @@ name: 同步插件市场数据
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    # 每 5 分钟触发一次（GitHub 最小间隔，实际执行可能延迟）
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -119,7 +120,7 @@ jobs:
           with open(OUT, 'w', encoding='utf-8') as f:
               json.dump(market, f, ensure_ascii=False, indent=2)
 
-          print(f'生成完成，共 {len(plugins)} 个插件')
+          print(f'生成完成，共 {len(plugins)} 个插件，时间：{market["lastUpdatedText"]}')
           PYEOF
           python3 /tmp/gen.py
 

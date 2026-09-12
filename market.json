@@ -1,0 +1,1427 @@
+{
+  "lastUpdated": "2026-09-12 17:16",
+  "lastUpdatedText": "2026年09月12日 17:16",
+  "total": 142,
+  "plugins": [
+    {
+      "name": "00榛缈插件性能分析",
+      "folder": "00榛缈插件性能分析",
+      "version": "0.1.1",
+      "author": "Hazelmeow",
+      "description": "在控制台显示插件执行时间 (发送 'perf start' 开始分析)",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/00榛缈插件性能分析"
+    },
+    {
+      "name": "32k盒子显示",
+      "folder": "32k盒子显示",
+      "version": "0.0.6",
+      "author": "SuperScript",
+      "description": "自动对任何放置在服内的32k盒子进行反制和保存",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/32k盒子显示"
+    },
+    {
+      "name": "CyanStock(券商股票系统)",
+      "folder": "CyanStock(券商股票系统)",
+      "version": "0.1.3",
+      "author": "CyanForest",
+      "description": "五家券商，计分板货币交易，市场情绪指数，随机利好利空事件，VIP分级折扣，定时补货，持仓上限自动平仓，全菜单式交互，支持面板可视化配置",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/CyanStock(券商股票系统)"
+    },
+    {
+      "name": "FateArk掉线检测",
+      "folder": "FateArk掉线检测",
+      "version": "0.0.1",
+      "author": "渊思",
+      "description": "检查机器人是否掉线",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/FateArk掉线检测"
+    },
+    {
+      "name": "Lumelta",
+      "folder": "Lumelta",
+      "version": "1.1.1",
+      "author": "Yeah",
+      "description": "Lumega on ToolDelta by Yeah",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/Lumelta"
+    },
+    {
+      "name": "MCFunction计划任务",
+      "folder": "MCFunction计划任务",
+      "version": "0.0.1",
+      "author": "SuperScript",
+      "description": "用计划任务执行mcfunction中的指令！支持传参",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/MCFunction计划任务"
+    },
+    {
+      "name": "MySQL连接器",
+      "folder": "MySQL连接器",
+      "version": "0.0.1",
+      "author": "小虫虫",
+      "description": "作为前置插件支持连接到一个MySQL服务器存取数据, 也可以通过 Tool 控制台访问数据库服务器.",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/MySQL连接器"
+    },
+    {
+      "name": "NekoMaid中转站Agent",
+      "folder": "NekoMaid中转站Agent",
+      "version": "0.1.0",
+      "author": "Codex",
+      "description": "ToolDelta -> neko-relay -> NekoMaid 前端（maid.neko-craft.com）中转站 Agent。兼容 neko-relay 的 agent_hello/cmd/rpc/status 协议，信息输出风格贴合 ToolDelta。",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/NekoMaid中转站Agent"
+    },
+    {
+      "name": "Q&A答题",
+      "folder": "Q&A答题",
+      "version": "0.0.1",
+      "author": "ToolDelta",
+      "description": "不定时在租赁服抛出题目, 让你的玩家回答并赢取奖励！ 答题配置可在配置文件进行修改",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/Q&A答题"
+    },
+    {
+      "name": "新手插件包",
+      "folder": "[pkg]新手插件包",
+      "version": "0.0.2",
+      "author": "SuperScript",
+      "description": "入门ToolDelta的插件包， 提供了ToolDelta的经典插件集\\n包括一些实用插件和娱乐插件",
+      "category": "pack",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/[pkg]新手插件包"
+    },
+    {
+      "name": "防挂插件包",
+      "folder": "[pkg]防挂插件包",
+      "version": "0.0.3",
+      "author": "ToolDelta",
+      "description": "收录常用的防挂插件",
+      "category": "pack",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/[pkg]防挂插件包"
+    },
+    {
+      "name": "音乐杂合包",
+      "folder": "[pkg]音乐杂合包",
+      "version": "0.0.1",
+      "author": "NearKai",
+      "description": "为音乐播放器和点歌台增加了几十首曲目，曲目适用于全年龄段（bushi",
+      "category": "pack",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/[pkg]音乐杂合包"
+    },
+    {
+      "name": "admin命令",
+      "folder": "admin命令",
+      "version": "0.0.3",
+      "author": "wling/Hadwin",
+      "description": "管理的好帮手！",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/admin命令"
+    },
+    {
+      "name": "ai聊天",
+      "folder": "ai聊天",
+      "version": "0.0.3",
+      "author": "机入",
+      "description": "接入deepseek大模型进行租赁服聊天",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/ai聊天"
+    },
+    {
+      "name": "demo-商店系统",
+      "folder": "demo-商店系统",
+      "version": "0.0.2",
+      "author": "ToolDelta Demo",
+      "description": "ToolDelta 的示例教学插件 - 可以在配置文件自定义出售和收购的商品",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/demo-商店系统"
+    },
+    {
+      "name": "desperated_plugins",
+      "folder": "desperated_plugins",
+      "version": "",
+      "author": "",
+      "description": "",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/desperated_plugins"
+    },
+    {
+      "name": "pip模块支持",
+      "folder": "pip模块支持",
+      "version": "0.0.8",
+      "author": "SuperScript",
+      "description": "提供了 pip 安装模块的支持\\n你也可以在控制台输入 pip-install <module> 来手动安装模块\\n  为 ToolDelta 额外安装第三方库",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/pip模块支持"
+    },
+    {
+      "name": "tooldelta_plugin_NEMC-sync",
+      "folder": "tooldelta_plugin_NEMC-sync",
+      "version": "0.0.1",
+      "author": "Mono",
+      "description": "QQ官方bot | 双向互通 网易Minecraft 和 QQ 群消息",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/tooldelta_plugin_NEMC-sync"
+    },
+    {
+      "name": "tooldelta_plugin_指令频率监测",
+      "folder": "tooldelta_plugin_指令频率监测",
+      "version": "0.0.6",
+      "author": "Mono",
+      "description": "指令频率监测插件，统计并限制所有插件发送指令的频率",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/tooldelta_plugin_指令频率监测"
+    },
+    {
+      "name": "『Lyra-天琴座』ToolDelta导入器",
+      "folder": "『Lyra-天琴座』ToolDelta导入器",
+      "version": "0.0.6",
+      "author": "style_天枢",
+      "description": "\\n§d✧✦§f〓〓§b〓〓〓§9〓〓〓〓§1〓〓〓〓〓〓§9〓〓〓〓§b〓〓〓§f〓〓§d✦✧\\n§l§d❐§f 『§6Lyra§f-§d天琴座§f』§bToolDelta§e导入器\\n§l§b[ §a●§b ] §r§a支持的建筑格式\\n§l§b[ §e1§b ] §r§eBDX\\n§l§b[ §e2§b ] §r§eLitematic\\n§l§b[ §e3§b ] §r§eMCStructure\\n§l§b[ §e4§b ] §r§eMCWorld\\n§l§b[ §e5§b ] §r§eSchem\\n§l§b[ §e6§b ] §r§eSchematic\\n§d✧✦§f〓〓§b〓〓〓§9〓〓〓〓§1〓〓〓〓〓〓§9〓〓〓〓§b〓〓〓§f〓〓§d✦✧",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/『Lyra-天琴座』ToolDelta导入器"
+    },
+    {
+      "name": "『Orion System』违规与作弊行为综合反制系统",
+      "folder": "『Orion System』违规与作弊行为综合反制系统",
+      "version": "0.4.4",
+      "author": "style_天枢『猎户座』",
+      "description": "\\n§d✧✦§f〓〓§b〓〓〓§9〓〓〓〓§1〓〓〓〓〓〓§9〓〓〓〓§b〓〓〓§f〓〓§d✦✧\\n§l§d❐§f 『§6Orion System §d猎户座§f』 §b违规与作弊行为§e综合§a反制§d系统\\n§l§b[ §e1§b ] §r§e拥有精美UI页面的控制台封禁/解封系统\\n§l§b[ §e2§b ] §r§e拥有精美UI页面的游戏内封禁/解封系统\\n§l§b[ §e3§b ] §r§e可通过游戏内记分板命令接入本封禁系统\\n§l§b[ §e4§b ] §r§e机器人IP外进反制\\n§l§b[ §e5§b ] §r§e皮肤数据异常反制\\n§l§b[ §e6§b ] §r§eSteve/Alex/4D皮肤反制\\n§l§b[ §e7§b ] §r§e账号等级限制\\n§l§b[ §e8§b ] §r§e网易屏蔽词名称反制\\n§l§b[ §e9§b ] §r§e自定义违禁词名称反制\\n§l§b[ §e10§b ] §r§e网易MC客户端玩家数据检查\\n§l§b[ §e11§b ] §r§e禁止游戏内私聊(tell,msg,w命令)\\n§l§b[ §e12§b ] §r§e禁止游戏内me命令\\n§l§b[ §e13§b ] §r§e发言黑名单词检测\\n§l§b[ §e14§b ] §r§e发言频率限制\\n§l§b[ §e15§b ] §r§e发言长度限制\\n§l§b[ §e16§b ] §r§e重复消息刷屏限制\\n§l§b[ §e17§b ] §r§e睡觉消息刷屏限制\\n§l§b[ §e18§b ] §r§e记录玩家XUID/设备号/现有名称与历史改名记录\\n§l§b[ §e19§b ] §r§e对上述行为执行自动封禁\\n§l§b[ §e20§b ] §r§e玩家能力权限管理器(如自动设置访客)\\n§d✧✦§f〓〓§b〓〓〓§9〓〓〓〓§1〓〓〓〓〓〓§9〓〓〓〓§b〓〓〓§f〓〓§d✦✧",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/『Orion System』违规与作弊行为综合反制系统"
+    },
+    {
+      "name": "世界备份",
+      "folder": "世界备份",
+      "version": "0.3.0",
+      "author": "YoRHa and RATH",
+      "description": "按需保留前几天的镜像存档数据，以便服务器地图损坏后可以修复",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/世界备份"
+    },
+    {
+      "name": "世界备份v2",
+      "folder": "世界备份v2",
+      "version": "1.6.0",
+      "author": "YoRHa and RATH",
+      "description": "保存多个时间点的存档数据，并使用专业工具恢复到对应时刻的存档",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/世界备份v2"
+    },
+    {
+      "name": "世界的记忆の复制",
+      "folder": "世界的记忆の复制",
+      "version": "0.3.0",
+      "author": "9S, Meteora·Österreich, Altair and Echidna",
+      "description": "精心制作的两本完整的睿智之书的复制品，并分别赠予碧翠丝和罗兹瓦尔",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/世界的记忆の复制"
+    },
+    {
+      "name": "举报系统",
+      "folder": "举报系统",
+      "version": "0.0.2",
+      "author": "帥気的男主角",
+      "description": "玩家可以自行举报并踢出玩家的系统，举报的玩家会被记录在日志中，可以在日志中查看举报记录",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/举报系统"
+    },
+    {
+      "name": "云计分板API",
+      "folder": "云计分板API",
+      "version": "0.0.1",
+      "author": "猫七街",
+      "description": "用于将计分板全部储存云端的API操作",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/云计分板API"
+    },
+    {
+      "name": "五子棋小游戏",
+      "folder": "五子棋小游戏",
+      "version": "0.0.5",
+      "author": "SuperScript",
+      "description": "输入 .wzq <对手名> 开始一局五子棋小游戏！",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/五子棋小游戏"
+    },
+    {
+      "name": "井字棋",
+      "folder": "井字棋",
+      "version": "0.0.7",
+      "author": "SuperScript",
+      "description": "娱乐小游戏: 3x3井字棋",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/井字棋"
+    },
+    {
+      "name": "任务系统",
+      "folder": "任务系统",
+      "version": "0.0.4",
+      "author": "任务系统",
+      "description": "为租赁服添加一套自定义的任务！",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/任务系统"
+    },
+    {
+      "name": "任务系统云链联动版",
+      "folder": "任务系统云链联动版",
+      "version": "0.0.5",
+      "author": "SuperScript / 小六神",
+      "description": "为租赁服添加一套自定义的任务（云链互通版），支持配置文件与任务文件热载入。",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/任务系统云链联动版"
+    },
+    {
+      "name": "传送点设置",
+      "folder": "传送点设置",
+      "version": "0.0.4",
+      "author": "SuperScript",
+      "description": "使玩家像 /sethome /home 设置传送点; 在配置文件更改传送点设置命令",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/传送点设置"
+    },
+    {
+      "name": "信任玩家互传",
+      "folder": "信任玩家互传",
+      "version": "0.0.2",
+      "author": "Ka3mora",
+      "description": "简化互传，受信任玩家免同意传送",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/信任玩家互传"
+    },
+    {
+      "name": "兑换码",
+      "folder": "兑换码",
+      "version": "0.0.1",
+      "author": "机入",
+      "description": "输入兑换码 执行指令",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/兑换码"
+    },
+    {
+      "name": "兑换码系统",
+      "folder": "兑换码系统",
+      "version": "0.0.3",
+      "author": "权威-马牛逼",
+      "description": "1",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/兑换码系统"
+    },
+    {
+      "name": "入服欢迎",
+      "folder": "入服欢迎",
+      "version": "0.0.4",
+      "author": "wling",
+      "description": "来欢迎一下玩家吧",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/入服欢迎"
+    },
+    {
+      "name": "全服喇叭",
+      "folder": "全服喇叭",
+      "version": "0.0.6",
+      "author": "wling",
+      "description": "全体请注意！身为管理的我要装*了！",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/全服喇叭"
+    },
+    {
+      "name": "公会系统",
+      "folder": "公会系统",
+      "version": "0.1.1",
+      "author": "星林 & 夏至",
+      "description": "允许玩家创建公会",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/公会系统"
+    },
+    {
+      "name": "公告栏[Mono]",
+      "folder": "公告栏[Mono]",
+      "version": "1.2.0",
+      "author": "Mono",
+      "description": "无",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/公告栏[Mono]"
+    },
+    {
+      "name": "前置_Cb2Bot通信",
+      "folder": "前置_Cb2Bot通信",
+      "version": "0.0.2",
+      "author": "SuperScript",
+      "description": "所有使用命令方块与机器人通信的插件的前置",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_Cb2Bot通信"
+    },
+    {
+      "name": "前置_MIDI播放器",
+      "folder": "前置_MIDI播放器",
+      "version": "0.2.9",
+      "author": "SuperScript",
+      "description": "所有使用解析和播放midi音乐功能的插件的前置组件",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_MIDI播放器"
+    },
+    {
+      "name": "前置_tps计算器",
+      "folder": "前置_tps计算器",
+      "version": "0.0.2",
+      "author": "SuperScript",
+      "description": "提供了获取tps的接口",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_tps计算器"
+    },
+    {
+      "name": "前置_世界交互",
+      "folder": "前置_世界交互",
+      "version": "2.0.7",
+      "author": "SuperScript and Happy2018new",
+      "description": "所有使用世界交互的插件的前置",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_世界交互"
+    },
+    {
+      "name": "前置_主动区块请求",
+      "folder": "前置_主动区块请求",
+      "version": "0.4.5",
+      "author": "2B",
+      "description": "自动请求区块数据，并将二进制化的数据分发给任何需要的插件",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_主动区块请求"
+    },
+    {
+      "name": "前置_基本插件功能库",
+      "folder": "前置_基本插件功能库",
+      "version": "0.0.13",
+      "author": "SuperScript",
+      "description": "所有使用基本组件API的插件的前置",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_基本插件功能库"
+    },
+    {
+      "name": "前置_大字替换",
+      "folder": "前置_大字替换",
+      "version": "0.0.2",
+      "author": "ToolDelta",
+      "description": "所有使用大字替换API的插件的前置",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_大字替换"
+    },
+    {
+      "name": "前置_循环获取玩家坐标",
+      "folder": "前置_循环获取玩家坐标",
+      "version": "0.0.5",
+      "author": "ToolDelta",
+      "description": "前置插件, 通过此插件的 1s 更新一次(可更改)玩家坐标可获取全服玩家的坐标",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_循环获取玩家坐标"
+    },
+    {
+      "name": "前置_献给机械的花束",
+      "folder": "前置_献给机械的花束",
+      "version": "1.5.0",
+      "author": "2B, 9S and 6O",
+      "description": "flowers for m[A]chines",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_献给机械的花束"
+    },
+    {
+      "name": "前置_玩家XUID获取",
+      "folder": "前置_玩家XUID获取",
+      "version": "0.0.7",
+      "author": "System",
+      "description": "通过 XUID 获取玩家名或通过玩家名获取 XUID",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_玩家XUID获取"
+    },
+    {
+      "name": "前置_玩家死亡检测",
+      "folder": "前置_玩家死亡检测",
+      "version": "0.0.1",
+      "author": "ToolDelta",
+      "description": "监听玩家死亡和重生事件的前置插件",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_玩家死亡检测"
+    },
+    {
+      "name": "前置_统一消息风格",
+      "folder": "前置_统一消息风格",
+      "version": "0.0.3",
+      "author": "ToolDelta",
+      "description": "统一对玩家显示的消息的风格 (如成功、失败、报错等)",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_统一消息风格"
+    },
+    {
+      "name": "前置_聊天栏菜单",
+      "folder": "前置_聊天栏菜单",
+      "version": "0.4.1",
+      "author": "SuperScript",
+      "description": "新聊天栏菜单, 支持参数类型检测等",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_聊天栏菜单"
+    },
+    {
+      "name": "区块显示器",
+      "folder": "区块显示器",
+      "version": "0.0.3",
+      "author": "SnowLotus",
+      "description": "使用 显示区块 聊天栏指令来查看区块范围, 使用 地图画起点 指令来查看地图画起点",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/区块显示器"
+    },
+    {
+      "name": "协管系统",
+      "folder": "协管系统",
+      "version": "0.0.5",
+      "author": "果_k",
+      "description": "使协管可以执行部分功能 包括/n视角投射 查询玩家背包物品 设置玩家权限 命令转发 DeepSeek多轮对话等",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/协管系统"
+    },
+    {
+      "name": "单方块空岛系统",
+      "folder": "单方块空岛系统",
+      "version": "0.0.1",
+      "author": "猫七街",
+      "description": "单方块空岛",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/单方块空岛系统"
+    },
+    {
+      "name": "发言频率限制",
+      "folder": "发言频率限制",
+      "version": "0.0.6",
+      "author": "wling/7912",
+      "description": "整治天天刷屏的家伙吧！",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/发言频率限制"
+    },
+    {
+      "name": "发言频率限制v2",
+      "folder": "发言频率限制v2",
+      "version": "0.1.2",
+      "author": "SuperScript",
+      "description": "制裁刷屏玩家；请在配置文件里配置刷屏检测功能",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/发言频率限制v2"
+    },
+    {
+      "name": "可升级云仓库",
+      "folder": "可升级云仓库",
+      "version": "0.0.1",
+      "author": "Ka3mora",
+      "description": "云空间存储物品，仓库共八个等级，可设置",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/可升级云仓库"
+    },
+    {
+      "name": "命令发送监视器",
+      "folder": "命令发送监视器",
+      "version": "0.0.1",
+      "author": "ToolDelta",
+      "description": "在控制台使用 §ecmdt§r 命令来开启监听或者取消监听 ToolDelta 发送的所有指令",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/命令发送监视器"
+    },
+    {
+      "name": "命令方块代发言支持",
+      "folder": "命令方块代发言支持",
+      "version": "0.0.1",
+      "author": "SuperScript",
+      "description": "ToolDelta 在 1.0.4 版本拦截了所有可能伪造的发言。\\n会导致一些命令方块 execute 玩家发言全部失效。\\n此插件正是修复此问题。\\n§c安装此插件后, ToolDelta 将不再对发言进行辨伪！",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/命令方块代发言支持"
+    },
+    {
+      "name": "命令链导出器",
+      "folder": "命令链导出器",
+      "version": "",
+      "author": "",
+      "description": "",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/命令链导出器"
+    },
+    {
+      "name": "商店系统",
+      "folder": "商店系统",
+      "version": "0.0.2",
+      "author": "ToolDelta Demo",
+      "description": "ToolDelta 的示例教学插件 Pro - 可以在配置文件自定义出售和收购的商品",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/商店系统"
+    },
+    {
+      "name": "基础聊天栏菜单",
+      "folder": "基础聊天栏菜单",
+      "version": "0.0.1",
+      "author": "帥気的男主角",
+      "description": "",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/基础聊天栏菜单"
+    },
+    {
+      "name": "多功能玩家互传",
+      "folder": "多功能玩家互传",
+      "version": "0.1.4",
+      "author": "wling/SuperScript",
+      "description": "提供了两种玩家互传功能(传送过去和传送到此), 也支持修改自身互传设置",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/多功能玩家互传"
+    },
+    {
+      "name": "大范围fill",
+      "folder": "大范围fill",
+      "version": "0.0.2",
+      "author": "System",
+      "description": "大范围填充方块, 在控制台输入 ? 可查看使用说明",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/大范围fill"
+    },
+    {
+      "name": "头衔系统",
+      "folder": "头衔系统",
+      "version": "0.0.4",
+      "author": "SuperScript",
+      "description": "在租赁服内多人同显不同称号！\\n聊天栏命令:\\n  .title-set / 。设置称号 以添加删除或给予称号\\n  .titles 玩家查看或切换称号",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/头衔系统"
+    },
+    {
+      "name": "头顶称号",
+      "folder": "头顶称号",
+      "version": "0.2.0",
+      "author": "南Nan",
+      "description": "头顶称号, 支持购买、切换、管理玩家头顶称号，并接入前置_聊天栏菜单",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/头顶称号"
+    },
+    {
+      "name": "定时任务",
+      "folder": "定时任务",
+      "version": "0.0.5",
+      "author": "System",
+      "description": "教程请打开插件手册查看",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/定时任务"
+    },
+    {
+      "name": "宠物背包清理",
+      "folder": "宠物背包清理",
+      "version": "0.1.0",
+      "author": "猫七街",
+      "description": "用于清理玩家的宠物背包\\n详细使用方法请选择§c查看插件文档手册！",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/宠物背包清理"
+    },
+    {
+      "name": "封禁系统",
+      "folder": "封禁系统",
+      "version": "1.0.9",
+      "author": "SuperScript",
+      "description": "在控制台封禁/解禁玩家。记录XUID，不用担心玩家改名！\\n在控制台输入 ？ 查看使用方法",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/封禁系统"
+    },
+    {
+      "name": "巡逻",
+      "folder": "巡逻",
+      "version": "0.0.8",
+      "author": "猫七街",
+      "description": "让机器人在玩家头上巡逻\\n§c注意: 此插件为防止刷屏会拦截 TextType=10 的 Text 数据包。",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/巡逻"
+    },
+    {
+      "name": "循环替换拒绝方块",
+      "folder": "循环替换拒绝方块",
+      "version": "0.0.1",
+      "author": "心海",
+      "description": "将玩家y=-64附近的区域的基岩§6循环替换为拒绝方块§r\\n每0.1s执行一次\\n  仅限纯冒险服使用, 玩家将不能放置/破坏方块\\n  除非基岩层上被放置了允许方块",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/循环替换拒绝方块"
+    },
+    {
+      "name": "性能管理",
+      "folder": "性能管理",
+      "version": "0.0.5",
+      "author": "SuperScript",
+      "description": "使用控制台命令对系统进行实时的cpu内存等监测, 更多方法请在安装插件后输入 top 命令",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/性能管理"
+    },
+    {
+      "name": "挂机检测",
+      "folder": "挂机检测",
+      "version": "0.0.1",
+      "author": "衍",
+      "description": "检测挂机玩家并踢出",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/挂机检测"
+    },
+    {
+      "name": "指令调试器",
+      "folder": "指令调试器",
+      "version": "0.0.1",
+      "author": "SuperScript",
+      "description": "用于查看普通/WS指令的完整返回, 控制台命令: d/<指令> 或 dw/<WS指令>，如: wd/testfor @a",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/指令调试器"
+    },
+    {
+      "name": "控制台一键更新插件",
+      "folder": "控制台一键更新插件",
+      "version": "0.0.1",
+      "author": "ToolDelta",
+      "description": "在控制台输入 up 即可一键更新所有插件",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/控制台一键更新插件"
+    },
+    {
+      "name": "插件快捷安装",
+      "folder": "插件快捷安装",
+      "version": "0.0.1",
+      "author": "Q3CC",
+      "description": "提供快捷安装插件的命令: plg add <插件ID/名称>\\n支持通过插件 ID 或名称搜索并安装插件和插件整合包\\n支持自定义插件市场源 (-url 参数)\\n支持跳过二次确认的快速安装模式 (-y 参数)\\n自动下载和安装插件及其前置插件\\n可扩展的命令架构，便于后期添加更多子命令",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/插件快捷安装"
+    },
+    {
+      "name": "插件接口获取修复",
+      "folder": "插件接口获取修复",
+      "version": "0.0.1",
+      "author": "ToolDelta",
+      "description": "当出现插件 API 不存在的报错时, 将尝试自动下载插件而不是直接报错退出",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/插件接口获取修复"
+    },
+    {
+      "name": "无邪玩家互传",
+      "folder": "无邪玩家互传",
+      "version": "1.0.0",
+      "author": "无邪",
+      "description": "功能完善的玩家互传系统，支持传送请求、权限管理和智能拼音搜索功能",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/无邪玩家互传"
+    },
+    {
+      "name": "时间同步计分板",
+      "folder": "时间同步计分板",
+      "version": "0.0.1",
+      "author": "SuperScript",
+      "description": "将现实时间同步到服内的计分板\\n一定要去看本插件的配置文件！",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/时间同步计分板"
+    },
+    {
+      "name": "更好的兑换码",
+      "folder": "更好的兑换码",
+      "version": "0.0.1",
+      "author": "衍",
+      "description": "更加安全的兑换码 支持自定义密钥每个人都插件都是独一无二的",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/更好的兑换码"
+    },
+    {
+      "name": "更好的公告栏",
+      "folder": "更好的公告栏",
+      "version": "0.0.10",
+      "author": "SuperScript",
+      "description": "在公告栏添加更多特殊内容, 例如本地时间和TPS等",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/更好的公告栏"
+    },
+    {
+      "name": "更好的钓鱼",
+      "folder": "更好的钓鱼",
+      "version": "0.0.3",
+      "author": "猫猫",
+      "description": "让你的每一次收杆充满惊喜",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/更好的钓鱼"
+    },
+    {
+      "name": "更明显的@玩家",
+      "folder": "更明显的@玩家",
+      "version": "0.0.5",
+      "author": "wling",
+      "description": "让@更有效果！ (输入 @玩家名 时将获得更明显的艾特提示)",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/更明显的@玩家"
+    },
+    {
+      "name": "服务器黑名单封禁系统",
+      "folder": "服务器黑名单封禁系统",
+      "version": "0.5.4",
+      "author": "丸山彩",
+      "description": "通过nv1拉黑式封禁玩家，同时是一个前置插件",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/服务器黑名单封禁系统"
+    },
+    {
+      "name": "服服互通",
+      "folder": "服服互通",
+      "version": "0.0.10",
+      "author": "SuperScript\\/2401PT",
+      "description": "通过中心服务器联结多个租赁服使其能够进行数据的互通\\n此插件仅提供最基本的消息互通功能, 更多功能在附属插件内",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/服服互通"
+    },
+    {
+      "name": "机器人发言",
+      "folder": "机器人发言",
+      "version": "0.0.1",
+      "author": "SuperScript",
+      "description": "控制台输入 say [消息] 使机器人在游戏内发言",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/机器人发言"
+    },
+    {
+      "name": "杀戮光环举报",
+      "folder": "杀戮光环举报",
+      "version": "0.0.2",
+      "author": "丸山彩",
+      "description": "举报使用杀戮光环的玩家并对其检测。",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/杀戮光环举报"
+    },
+    {
+      "name": "权限管理",
+      "folder": "权限管理",
+      "version": "0.0.2",
+      "author": "权威-马牛逼",
+      "description": "计分板qx，可在在游戏中更改，如果需要更新权限，把玩家踢掉自动更新(确保你更新了分数)，0为成员1为访客2操作员3自定义",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/权限管理"
+    },
+    {
+      "name": "死亡点返回",
+      "folder": "死亡点返回",
+      "version": "0.0.2",
+      "author": "果_k",
+      "description": "支持多维度的返回死亡点",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/死亡点返回"
+    },
+    {
+      "name": "活力API",
+      "folder": "活力API",
+      "version": "0.1.5",
+      "author": "Q3CC",
+      "description": "活力API保活插件",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/活力API"
+    },
+    {
+      "name": "活塞限速",
+      "folder": "活塞限速",
+      "version": "0.0.2",
+      "author": "SuperScript",
+      "description": "制裁玩家放置的高频活塞！高度自定义化反制！",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/活塞限速"
+    },
+    {
+      "name": "清理实体分数",
+      "folder": "清理实体分数",
+      "version": "1.0.0",
+      "author": "ZTAI",
+      "description": "清理不可使用指令删除的实体记分项",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/清理实体分数"
+    },
+    {
+      "name": "清空全部玩家末影箱",
+      "folder": "清空全部玩家末影箱",
+      "version": "0.0.7",
+      "author": "wling",
+      "description": "还在担心玩家在末影箱藏小东西吗？直接清空玩家的末影箱！",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/清空全部玩家末影箱"
+    },
+    {
+      "name": "游戏内显示插件报错",
+      "folder": "游戏内显示插件报错",
+      "version": "0.0.5",
+      "author": "System",
+      "description": "将插件产生的报错转发到游戏内",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/游戏内显示插件报错"
+    },
+    {
+      "name": "灵魂出窍",
+      "folder": "灵魂出窍",
+      "version": "0.0.1",
+      "author": "镜流",
+      "description": "灵魂出窍系统 允许玩家以旁观者模式暂时离开身体探索世界 不懂效果的上网搜一下",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/灵魂出窍"
+    },
+    {
+      "name": "点歌台",
+      "folder": "点歌台",
+      "version": "1.0.1",
+      "author": "SuperScript & Zhonger-Yuansi",
+      "description": "想在在服内点歌？ 使用这个点歌台插件吧！\\n歌曲MIDI文件需要放置于 §6插件数据文件/点歌台/音乐列表§f 下或者使用网络源\\n在服内输入 help 可查看点歌指令\\n消耗的音乐点于计分板 song_point, 可自行添加分数",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/点歌台"
+    },
+    {
+      "name": "物品制作器",
+      "folder": "物品制作器",
+      "version": "0.0.4",
+      "author": "SuperScript",
+      "description": "可制作换行物品等; 详情请查看该插件附带的手册",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/物品制作器"
+    },
+    {
+      "name": "猫七街云黑封禁",
+      "folder": "猫七街云黑封禁",
+      "version": "0.0.2",
+      "author": "猫七街",
+      "description": "云端黑名单插件",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/猫七街云黑封禁"
+    },
+    {
+      "name": "猫七街玩家互传",
+      "folder": "猫七街玩家互传",
+      "version": "0.0.1",
+      "author": "猫七街",
+      "description": "玩家之间相互传送",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/猫七街玩家互传"
+    },
+    {
+      "name": "玩家交易所",
+      "folder": "玩家交易所",
+      "version": "0.0.1",
+      "author": "猫七街",
+      "description": "玩家之间相互交易",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/玩家交易所"
+    },
+    {
+      "name": "玩家人数限制",
+      "folder": "玩家人数限制",
+      "version": "0.0.1",
+      "author": "SuperScript",
+      "description": "限制租赁服人数",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/玩家人数限制"
+    },
+    {
+      "name": "玩家数据管理",
+      "folder": "玩家数据管理",
+      "version": "2.0.1",
+      "author": "猫七街",
+      "description": "玩家数据管理",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/玩家数据管理"
+    },
+    {
+      "name": "玩家记录",
+      "folder": "玩家记录",
+      "version": "0.0.3",
+      "author": "SuperScript",
+      "description": "记录历史加入玩家的信息",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/玩家记录"
+    },
+    {
+      "name": "玩家转账",
+      "folder": "玩家转账",
+      "version": "0.0.3",
+      "author": "猫七街",
+      "description": "玩家直接相互转账",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/玩家转账"
+    },
+    {
+      "name": "番茄小说",
+      "folder": "番茄小说",
+      "version": "0.0.1",
+      "author": "小虫虫",
+      "description": "在MC中使用番茄小说",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/番茄小说"
+    },
+    {
+      "name": "白名单&管理员检测",
+      "folder": "白名单&管理员检测",
+      "version": "1.1.0",
+      "author": "猫七街",
+      "description": "白名单&管理员检测",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/白名单&管理员检测"
+    },
+    {
+      "name": "白名单&管理员检测云链联动版",
+      "folder": "白名单&管理员检测云链联动版",
+      "version": "1.1.2",
+      "author": "猫七街",
+      "description": "白名单&管理员检测云链联动版",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/白名单&管理员检测云链联动版"
+    },
+    {
+      "name": "皮肤异常拉黑丨锁服反制",
+      "folder": "皮肤异常拉黑丨锁服反制",
+      "version": "0.2.4",
+      "author": "丸山彩",
+      "description": "将皮肤数据异常玩家拉入租赁服黑名单，防御这类锁服，同时用活力API保护服主账号不被封禁。",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/皮肤异常拉黑丨锁服反制"
+    },
+    {
+      "name": "空岛分配",
+      "folder": "空岛分配",
+      "version": "0.0.1",
+      "author": "猫七街",
+      "description": "自动分配空岛",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/空岛分配"
+    },
+    {
+      "name": "空岛系统",
+      "folder": "空岛系统",
+      "version": "0.0.3",
+      "author": "SuperScript",
+      "description": "使用该系统便捷地制作一个空岛系统！§c一定要在写配置文件的时候查看插件手册",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/空岛系统"
+    },
+    {
+      "name": "等级检测",
+      "folder": "等级检测",
+      "version": "0.0.2",
+      "author": "果_k",
+      "description": "限制玩家进服等级",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/等级检测"
+    },
+    {
+      "name": "等级检测增强版",
+      "folder": "等级检测增强版",
+      "version": "1.0.1",
+      "author": "Q3CC",
+      "description": "基于原版等级检测插件的增强版本，新增了通过QQ群聊白名单绕过等级限制的功能。",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/等级检测增强版"
+    },
+    {
+      "name": "签到系统",
+      "folder": "签到系统",
+      "version": "0.0.1",
+      "author": "权威-马牛逼",
+      "description": "100种签到语",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/签到系统"
+    },
+    {
+      "name": "简单世界导入",
+      "folder": "简单世界导入",
+      "version": "0.4.0",
+      "author": "YoRHa",
+      "description": "一个简单的世界导入实现，目的在于提供一个操作基岩版存档的演示，但不实现任何关于 NBT 方块的部分\\n使用方法: 启动插件后将 mcworld 文件夹置于 插件数据文件/简易世界导入/ 目录下, 然后在控制台输入 ? 查看 import/ 命令帮助",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/简单世界导入"
+    },
+    {
+      "name": "简单世界导出",
+      "folder": "简单世界导出",
+      "version": "0.2.0",
+      "author": "YoRHa",
+      "description": "简易的存档导出实现, 您需要自行打包为 mcworld 哟",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/简单世界导出"
+    },
+    {
+      "name": "简单世界恢复",
+      "folder": "简单世界恢复",
+      "version": "0.6.0",
+      "author": "YoRHa",
+      "description": "结合“世界备份”插件使用，在服务器地图损坏后用本插件修复(本插件会对比方块差异，只导入差异部分，比“简单世界导入”效率高)",
+      "category": "world",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/简单世界恢复"
+    },
+    {
+      "name": "简单程序启动器",
+      "folder": "简单程序启动器",
+      "version": "0.0.1",
+      "author": "Eternal Crystal",
+      "description": "Running a custom program.",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/简单程序启动器"
+    },
+    {
+      "name": "简易建造",
+      "folder": "简易建造",
+      "version": "0.0.8",
+      "author": "SuperScript",
+      "description": "使用一些更简便的方法让建筑师建造服务器",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/简易建造"
+    },
+    {
+      "name": "简易建造-Pro",
+      "folder": "简易建造-Pro",
+      "version": "0.0.11",
+      "author": "SuperScript",
+      "description": "使用一些更简便的方法让建筑师建造服务器",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/简易建造-Pro"
+    },
+    {
+      "name": "管理员白名单",
+      "folder": "管理员白名单",
+      "version": "0.0.2",
+      "author": "SuperScript",
+      "description": "踢出不在管理员白名单中的管理员 (安装后 reload 记得先修改配置文件把自己名字加进去！)",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/管理员白名单"
+    },
+    {
+      "name": "类式插件创建器",
+      "folder": "类式插件创建器",
+      "version": "0.0.2",
+      "author": "ToolDelta",
+      "description": "使用 create 指令创建类式插件",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/类式插件创建器"
+    },
+    {
+      "name": "系统上线提示[Mono]",
+      "folder": "系统上线提示[Mono]",
+      "version": "0.0.1",
+      "author": "Mono",
+      "description": "系统上线提示",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/系统上线提示[Mono]"
+    },
+    {
+      "name": "群服互通云链版",
+      "folder": "群服互通云链版",
+      "version": "0.1.2",
+      "author": "大庆油田\\/SuperScript",
+      "description": "提供了群服消息互通、查询玩家列表、执行指令等功能\\n0.0.3修复： 重连会创建两倍连接的问题\\n0.0.6: 修复了部分指令返回翻译为中文出错的问题",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/群服互通云链版"
+    },
+    {
+      "name": "群服互通云链版Ultra版",
+      "folder": "群服互通云链版Ultra版",
+      "version": "2.1.8",
+      "author": "大庆油田 / SuperScript / 小六神",
+      "description": "群服互通云链版Ultra版。支持云链与QQ官方机器人双通道，提供多群独立管理的群服互通、QQ群管理员体系、QQ与游戏ID绑定、白名单&管理员检测联动、QQ背包查询、领地系统云链联动版群内管理、公会系统云链联动版，以及 Orion 联动封禁功能。\\n支持多个链接群聊；每个群单独在配置文件中保存所有者、超级管理员和普通管理员，并会自动迁移旧版插件数据文件夹中的群管理员数据；支持每群独立设置帮助菜单唤醒词、管理员菜单唤醒词、查看玩家列表唤醒词、查询背包唤醒词、领地系统云链联动版菜单唤醒词、公会系统菜单唤醒词、发送指令前缀、各类菜单分页数量；支持所有者在群聊中管理超级管理员和普通管理员，支持超级管理员管理普通管理员；支持普通群成员在绑定游戏账号后使用公会系统普通菜单；支持在群聊中管理服务器白名单/管理员、领地系统云链联动版、公会系统云链联动版群内普通/管理菜单、设置检测周期，并通过 Orion API 封禁与解封玩家；对外提供 QQLinkerUltraAPI 绑定查询、群配置查询、群权限管理、触发词查询、运行状态查询、在线玩家查询、MC 指令执行、游戏到群转发预判、云链重载、原始群消息监听和消息发送接口。",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/群服互通云链版Ultra版"
+    },
+    {
+      "name": "群服互通本地版启动器",
+      "folder": "群服互通本地版启动器",
+      "version": "0.0.3",
+      "author": "SuperScript",
+      "description": "使得群服互通可以在 ToolDelta 上并行直接启动, 不需要云链！",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/群服互通本地版启动器"
+    },
+    {
+      "name": "聊天历史记录",
+      "folder": "聊天历史记录",
+      "version": "0.0.1",
+      "author": "ToolDelta",
+      "description": "记录聊天栏聊天的历史记录",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/聊天历史记录"
+    },
+    {
+      "name": "自定义聊天栏菜单",
+      "folder": "自定义聊天栏菜单",
+      "version": "0.1.6",
+      "author": "SuperScript",
+      "description": "自定义ToolDelta的聊天栏菜单触发词等, 拥有高级计分板替换功能! 详情看最新自动生成的配置文件!",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/自定义聊天栏菜单"
+    },
+    {
+      "name": "获取全服玩家皮肤",
+      "folder": "获取全服玩家皮肤",
+      "version": "0.0.5",
+      "author": "SuperScript",
+      "description": "记录每一个登录了租赁服的玩家的皮肤, 并存储到插件数据文件夹",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/获取全服玩家皮肤"
+    },
+    {
+      "name": "计分板支持",
+      "folder": "计分板支持",
+      "version": "",
+      "author": "",
+      "description": "",
+      "category": "data",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/计分板支持"
+    },
+    {
+      "name": "计分板重置",
+      "folder": "计分板重置",
+      "version": "0.0.1",
+      "author": "猫七街",
+      "description": "将白名单外的计分板全部重置",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/计分板重置"
+    },
+    {
+      "name": "超频刷屏反制",
+      "folder": "超频刷屏反制",
+      "version": "0.0.8",
+      "author": "SuperScript",
+      "description": "制裁超频刷屏的玩家/锁服",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/超频刷屏反制"
+    },
+    {
+      "name": "进服一言",
+      "folder": "进服一言",
+      "version": "0.0.2",
+      "author": "机入 & Q3CC",
+      "description": "进入服务器之后返回随机一言",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/进服一言"
+    },
+    {
+      "name": "进服验证",
+      "folder": "进服验证",
+      "version": "0.0.1",
+      "author": "大庆油田",
+      "description": "提供了进服验证，以保证进服玩家在指定qq群内",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/进服验证"
+    },
+    {
+      "name": "违规名称踢出",
+      "folder": "违规名称踢出",
+      "version": "0.0.10",
+      "author": "大庆油田",
+      "description": "踢出敏感词玩家/自定义违规词玩家",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/违规名称踢出"
+    },
+    {
+      "name": "重启",
+      "folder": "重启",
+      "version": "0.0.1",
+      "author": "大庆油田",
+      "description": "允许在游戏内重启tooldelta服务",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/重启"
+    },
+    {
+      "name": "银狼的指令区工程导入导出",
+      "folder": "银狼的指令区工程导入导出",
+      "version": "0.0.2",
+      "author": "SuperScript",
+      "description": "导出指令区为 mcfunction 工程文件夹\\n或者将工程文件夹内容导入为指令区\\n支持简单断链/朝向保存等\\n在控制台输入 cbdump / cbload 进行指令区导入导出",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/银狼的指令区工程导入导出"
+    },
+    {
+      "name": "银行插件",
+      "folder": "银行插件",
+      "version": "0.0.1",
+      "author": "笛卡尔似的梦",
+      "description": "一个完整的银行系统插件，玩家可以存款、取款、查看利息，银行每小时向在线玩家发放利息",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/银行插件"
+    },
+    {
+      "name": "随机商店",
+      "folder": "随机商店",
+      "version": "0.0.1",
+      "author": "伊嘉",
+      "description": "高度自定义的随机商店\\n支持修改商品刷新数量、权重、随机单价、全服/个人限购等",
+      "category": "eco",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/随机商店"
+    },
+    {
+      "name": "雪球菜单v3",
+      "folder": "雪球菜单v3",
+      "version": "0.1.7",
+      "author": "SuperScript",
+      "description": "贴合租赁服原汁原味的雪球菜单！ 可以自定义雪球菜单内容， 同时也是一个API插件.\\n§f使用前请先传送到指令区后输入命令§b.snowmenu-init§f初始化雪球菜单命令方块！！！！\\n在配置文件内向雪球菜单添加内容。",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/雪球菜单v3"
+    },
+    {
+      "name": "音乐播放器",
+      "folder": "音乐播放器",
+      "version": "0.1.2",
+      "author": "SuperScript",
+      "description": "包含显示进度, 显示播放条等功能的Midi音乐播放器！\\n用途和功能请查看插件手册!!!",
+      "category": "fun",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/音乐播放器"
+    },
+    {
+      "name": "音效播放器",
+      "folder": "音效播放器",
+      "version": "0.0.2",
+      "author": "SuperScript",
+      "description": "§a功能请查看手册!!!§r支持直接使用命令方块请求播放MIDI文件，还增加了ZBasic的播放命令语法扩展！",
+      "category": "admin",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/音效播放器"
+    },
+    {
+      "name": "领地系统云链联动版",
+      "folder": "领地系统云链联动版",
+      "version": "0.1.18",
+      "author": "小石潭记qwq/小六神",
+      "description": "领地系统云链联动版，支持创建圆形/方形领地、成员管理、自动防护、传送、配置热载入与外部插件 API 调用",
+      "category": "social",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/领地系统云链联动版"
+    }
+  ]
+}

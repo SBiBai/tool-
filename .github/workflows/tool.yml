@@ -2,9 +2,13 @@ name: 同步插件市场数据
 
 on:
   schedule:
-    # 每 5 分钟触发一次（GitHub 最小间隔，实际执行可能延迟）
-    - cron: '*/5 * * * *'
+    # 每 30 分钟触发一次
+    - cron: '*/30 * * * *'
   workflow_dispatch:
+
+concurrency:
+  group: market-sync
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,6 +19,8 @@ jobs:
     steps:
       - name: 检出你的仓库
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 克隆原插件市场
         run: git clone --depth 1 https://github.com/ToolDelta-Basic/PluginMarket.git /tmp/PluginMarket
@@ -133,5 +139,6 @@ jobs:
             echo "没有变化，跳过提交"
           else
             git commit -m "chore: 同步插件数据 [skip ci]"
-            git push
+            git pull --rebase -X theirs origin main
+            git push origin main
           fi

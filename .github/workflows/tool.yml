@@ -1,0 +1,136 @@
+name: 同步插件市场数据
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出你的仓库
+        uses: actions/checkout@v4
+
+      - name: 克隆原插件市场
+        run: git clone --depth 1 https://github.com/ToolDelta-Basic/PluginMarket.git /tmp/PluginMarket
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 扫描插件并生成 market.json
+        run: |
+          cat > /tmp/gen.py << 'PYEOF'
+          import json, os, re
+          from datetime import datetime, timezone, timedelta
+
+          SRC = '/tmp/PluginMarket'
+          OUT = 'market.json'
+
+          CATEGORY_KEYWORDS = [
+              ('anti',   ['封禁', '反制', '检测', '举报', '巡逻', '踢出', '限速', '刷屏', '黑名单', '掉线', '锁服', '拉黑', '反作弊']),
+              ('admin',  ['权限', '管理员', '白名单', '清空', 'fill', '建造', '区块', '协管', '末影箱', '32k', '灵魂', '命令']),
+              ('eco',    ['商店', '交易', '银行', '兑换', '转账', '股票', '仓库', 'CyanStock', '经济']),
+              ('fun',    ['棋', '音乐', '点歌', '音效', 'AI', 'ai', '答题', '雪球', '小说']),
+              ('social', ['互通', '传送', '欢迎', '公告', '称号', '公会', '喇叭', '头衔', '聊天栏', '@玩家', '一言', '入服', '进服']),
+              ('world',  ['空岛', '世界', '备份', '领地', '记忆', '死亡点']),
+              ('data',   ['任务', '记录', '签到', '计分板', '等级', '皮肤', '聊天历史']),
+              ('dev',    ['API', '插件', '控制台', '调试', '导入', '导出', '性能', '连接器', '启动器', 'MySQL', 'NekoMaid', 'pip', 'Lumelta', '活力']),
+          ]
+
+          def categorize(name, desc):
+              if '前置' in name:
+                  return 'dep'
+              if '[pkg]' in name or '整合包' in name:
+                  return 'pack'
+              text = name + ' ' + desc
+              for cat, keywords in CATEGORY_KEYWORDS:
+                  for kw in keywords:
+                      if kw in text:
+                          return cat
+              return 'dev'
+
+          def extract_field(text, field_names):
+              for name in field_names:
+                  pattern = rf'["""]?{re.escape(name)}["""]?\s*[:：]\s*["""]([^"""]*)["""]'
+                  match = re.search(pattern, text)
+                  if match:
+                      return match.group(1).strip()
+              return ''
+
+          def extract_deps(text):
+              deps = {}
+              match = re.search(r'["""]?预插件["""]?\s*[:：]\s*\{([^}]*)\}', text, re.DOTALL)
+              if match:
+                  block = match.group(1)
+                  for m in re.finditer(r'["""]([^"""]+)["""]?\s*[:：]\s*["""]([^"""]+)["""]', block):
+                      deps[m.group(1)] = m.group(2)
+              return deps
+
+          plugins = []
+          if os.path.isdir(SRC):
+              for entry in sorted(os.listdir(SRC)):
+                  folder = os.path.join(SRC, entry)
+                  if not os.path.isdir(folder) or entry.startswith('.'):
+                      continue
+
+                  datas_path = os.path.join(folder, 'datas.json')
+                  name = entry
+                  version = ''
+                  author = ''
+                  description = ''
+                  deps = {}
+
+                  if os.path.isfile(datas_path):
+                      with open(datas_path, 'r', encoding='utf-8') as f:
+                          text = f.read()
+                      version = extract_field(text, ['版本', 'version'])
+                      author = extract_field(text, ['作者', 'author'])
+                      description = extract_field(text, ['description', '描述'])
+                      deps = extract_deps(text)
+
+                  display_name = name[5:] if name.startswith('[pkg]') else name
+
+                  plugins.append({
+                      'name': display_name,
+                      'folder': name,
+                      'version': version,
+                      'author': author,
+                      'description': description,
+                      'category': categorize(name, description),
+                      'dependencies': deps,
+                      'repoUrl': f'https://github.com/ToolDelta-Basic/PluginMarket/tree/main/{entry}'
+                  })
+
+          now_bj = datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=8)))
+
+          market = {
+              'lastUpdated': now_bj.strftime('%Y-%m-%d %H:%M'),
+              'lastUpdatedText': now_bj.strftime('%Y年%m月%d日 %H:%M'),
+              'total': len(plugins),
+              'plugins': plugins
+          }
+
+          with open(OUT, 'w', encoding='utf-8') as f:
+              json.dump(market, f, ensure_ascii=False, indent=2)
+
+          print(f'生成完成，共 {len(plugins)} 个插件')
+          PYEOF
+          python3 /tmp/gen.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add market.json
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "chore: 同步插件数据 [skip ci]"
+            git push
+          fi

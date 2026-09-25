@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-25 18:23",
-  "lastUpdatedText": "2026年09月25日 18:23",
-  "total": 142,
+  "lastUpdated": "2026-09-25 23:24",
+  "lastUpdatedText": "2026年09月25日 23:24",
+  "total": 144,
   "plugins": [
     {
       "name": "00榛缈插件性能分析",
@@ -192,6 +192,16 @@
       "category": "dev",
       "dependencies": {},
       "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/tooldelta_plugin_指令频率监测"
+    },
+    {
+      "name": "『Libra-天秤座』玩家权限管理系统",
+      "folder": "『Libra-天秤座』玩家权限管理系统",
+      "version": "0.2.0",
+      "author": "小六神",
+      "description": "§d✧✦§f〓〓〓〓〓〓〓〓〓〓§d✦✧\\\\n§l§d❐§f 『Libra-天秤座』玩家权限管理系统\\\\n§l§b[ §e1§b ] §r§e八项玩家能力实时读取与权限差异检测\\\\n§l§b[ §e2§b ] §r§e在线玩家进服检查、周期复核与自动修正\\\\n§l§b[ §e3§b ] §r§eXUID获取 API 玩家搜索及离线权限设置\\\\n§l§b[ §e4§b ] §r§e管理员列表解析、未知管理员告警与策略处理\\\\n§l§b[ §e5§b ] §r§e权限托管规则、快照管理与操作审计\\\\n§l§b[ §e6§b ] §r§e向其他 ToolDelta 插件提供稳定权限管理 API\\\\n§d✧✦§f〓〓〓〓〓〓〓〓〓〓§d✦✧",
+      "category": "anti",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/『Libra-天秤座』玩家权限管理系统"
     },
     {
       "name": "『Lyra-天琴座』ToolDelta导入器",
@@ -462,6 +472,16 @@
       "category": "dep",
       "dependencies": {},
       "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_循环获取玩家坐标"
+    },
+    {
+      "name": "前置_循环获取玩家背包",
+      "folder": "前置_循环获取玩家背包",
+      "version": "0.0.1",
+      "author": "小六神",
+      "description": "前置插件：使用 WebSocket 指令循环查询全部在线玩家背包，提供 QueriedInventory 对象、原始字典、缓存查询、即时查询、强制刷新及内部广播 API",
+      "category": "dep",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/前置_循环获取玩家背包"
     },
     {
       "name": "前置_献给机械的花束",

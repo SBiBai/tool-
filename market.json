@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-05 10:15",
-  "lastUpdatedText": "2026年10月05日 10:15",
-  "total": 144,
+  "lastUpdated": "2026-10-05 17:25",
+  "lastUpdatedText": "2026年10月05日 17:25",
+  "total": 145,
   "plugins": [
     {
       "name": "00榛缈插件性能分析",
@@ -1242,6 +1242,16 @@
       "category": "dev",
       "dependencies": {},
       "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/系统上线提示[Mono]"
+    },
+    {
+      "name": "红包",
+      "folder": "红包",
+      "version": "0.2.3",
+      "author": "Q3CC",
+      "description": "支持全服口令领取及手气最佳播报，未领完金额自动退回。",
+      "category": "dev",
+      "dependencies": {},
+      "repoUrl": "https://github.com/ToolDelta-Basic/PluginMarket/tree/main/红包"
     },
     {
       "name": "群服互通云链版",
